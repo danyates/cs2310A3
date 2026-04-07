@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name Here</title>
+  <title>Daniel Yates</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,13 +23,33 @@
 
     <section id="about">
       <h2>About Me</h2>
-      <!-- TODO: Replace with 2-3 sentences about yourself -->
-      <!-- e.g., include your name, your program/year, and what you are interested in -->
+      I am Daniel Yates, and I'm a Master's student in the Computer Science program at the University of Pittsburgh,
+      as well as a full-time Research Engineer at the IDEA Lab in the Swanson School of Engineering. My engineering 
+      and design work has brought me into exciting projects for a variety of clients in a variety of industries. I am
+      interested in building my skills in programming, especially perception and embedded systems.
+
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-
+      <div>
+        <h3>MLB Spinal Rotation Application</h3>
+        <p>This project was a Raspberry Pi powered handheld tablet that could be used to track rotation during PT for major league 
+          baseball team. For the software, OpenCV and python were used to track targets that were held by the subject. For hardware,
+          laser cutting and electronics assembly were used to create the handheld tablet, with a PiCamera providing a live video feed.
+          This was my first introduction to computer vision applications, as well as an introduction to Raspberry Pis and touchscreen monitors. 
+        </p>
+      </div>
+      <div>
+        <h3>Pothole Robot</h3>
+        <p>
+          This project is a large scale autonomous road surface treatment device. Built entirely on a 7'x12' trailer, this robotic system
+          scans potholes using a Time of Flight camera to generate a 3D pointcloud, and then processes the pointclouds to get size, location,
+          and characteristics of the pothole. That data is used to generate a toolpath, which is sent to a gantry and extrusion system that 
+          precisely outputs asphalt to sufficiently fill the pothole. The system uses a Jetson Xavier, along with a Zaber gantry
+          system, a KWS screw conveyor, and primarily Python software. I learned about large scale robotic systems design and integration.
+        </p>
+      </div>
       <!-- Example project entry structure — copy, fill in, and add at least 2:
       <div class="project">
         <h3>Project Name</h3>
@@ -44,7 +64,11 @@
       <h2>Skills</h2>
       <ul>
         <!-- Example skill - TODO: replace -->
-        <li>HTML</li>
+        <li>Mechanical Engineering</li>
+        <li>Mechatronics</li>
+        <li>Python</li>
+        <li>Computer Vision</li>
+        <li>Robotics</li>
 
         <!-- TODO: Add a second skill here -->
         <!-- TODO: Add a third skill here -->
@@ -56,7 +80,7 @@
       <h2>Contact</h2>
       <!-- TODO: Replace href="#" with a real link (e.g., mailto:you@example.com or your LinkedIn URL) -->
       <!-- TODO: Replace the link text with something descriptive, e.g. "Email me" or "LinkedIn" -->
-      <p><a href="#">Contact me</a></p>
+      <p><a href="mailto:day37@pitt.edu">Contact me</a></p>
     </section>
 
   </main>
