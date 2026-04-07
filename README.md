@@ -1,3 +1,6 @@
+# Status
+[![Portfolio Pipeline](https://github.com/danyates/cs2310A3/actions/workflows/pipeline.yml/badge.svg)](https://github.com/danyates/cs2310A3/actions/workflows/pipeline.yml)
+
 # Portfolio Template
 
 A starter repo for building and validating a personal portfolio webpage.
